@@ -21,6 +21,7 @@ body {
     
     
 }
+
 ::-webkit-scrollbar {
     width: 10px; /* عرض الشريط العمودي */
     height: 10px; /* عرض الشريط الأفقي */
@@ -181,11 +182,13 @@ a{
     padding-top: 60%;
     font-size: 23px;
     display: flex;
+    color: transparent !important;
     
     
   
   
 }
+
 
 /* Media query for tablets (example: screens smaller than 992px) */
 @media (max-width: 991px) {
@@ -969,6 +972,7 @@ a{
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .contact-details a:hover {
